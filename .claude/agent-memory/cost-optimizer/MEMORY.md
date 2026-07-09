@@ -1,0 +1,4 @@
+- [Portfolio Site CloudFront Config](portfolio-cloudfront-config.md) — CloudFront using PriceClass_200, opportunities to downgrade to PriceClass_100 for static site
+- [Portfolio Site S3 Storage](portfolio-s3-storage.md) — S3 bucket with standard storage class, no lifecycle rules; static site could use Intelligent-Tiering
+- [Static Site Cost Patterns](static-site-patterns.md) — Static HTML/CSS sites have minimal storage/bandwidth costs; biggest savings typically from CloudFront price class and caching optimization
+- [Complete Cost Analysis](complete-cost-analysis.md) — Full cost review as of 2026-07-08; PriceClass_100 downgrade recommended (HIGH impact)

@@ -1,0 +1,2 @@
+- [Terraform stack overview](terraform_stack_overview.md) — S3+CloudFront OAC static site baseline posture, what's already solid, where IAM/OIDC review is out of scope
+- [Recurring terraform gaps](recurring_terraform_gaps.md) — open findings list to recheck on next audit (gitignore, remote backend, SSE, versioning, logging, headers policy)
