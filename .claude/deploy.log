@@ -1,0 +1,6 @@
+[2026-07-10T09:05:13Z] Terraform command executed: echo '{"tool_input":{"command":"cd terraform && terraform validate"}}' | bash /Users/rohankumardas/Desktop/Ultimate-Agentic-DevOps-with-Claude-Code/.claude/hooks/post-tool-logger.sh; cat /Users/rohankumardas/Desktop/Ultimate-Agentic-DevOps-with-Claude-Code/.claude/deploy.log
+[2026-07-10T09:05:22Z] Terraform command executed: cd terraform && terraform validate
+[2026-07-10T09:05:22Z] Terraform command executed: export CLAUDE_PROJECT_DIR=/Users/rohankumardas/Desktop/Ultimate-Agentic-DevOps-with-Claude-Code
+echo '{"tool_input":{"command":"cd terraform && terraform validate"}}' | bash "$CLAUDE_PROJECT_DIR/.claude/hooks/post-tool-logger.sh"
+cat "$CLAUDE_PROJECT_DIR/.claude/deploy.log"
+[2026-07-10T09:05:56Z] Terraform command executed: cd terraform && terraform validate

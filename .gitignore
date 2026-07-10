@@ -1,3 +1,9 @@
-.terraform
+.terraform/*
 .claude/settings.local.json
-.DS_Store
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.DS_Store.terraform/
+*.tfstate
+*.tfstate.backup
